@@ -1,12 +1,12 @@
 
-Here is your final **README** for the **MERN Portfolio** project! 🎉 Let me know if you need any tweaks! 🚀  
-
 ---
 
 # **MERN Blog page** ✅  
 
 ## 🚀 Introduction  
 Welcome to **MERN Blog page**, a full-stack Blog application built using the **MERN stack** but with **MySQL** instead of MongoDB! 🌟 This project has all with a sleek and modern UI. 🚀  
+
+Priview - ![Screenshot 2025-03-03 193107](https://github.com/user-attachments/assets/9d90c95d-07b8-49bf-900f-e903055ccb6a) , ![Screenshot 2025-03-03 193135](https://github.com/user-attachments/assets/5cf608e1-6400-4ff1-9dc9-d506dd25a626) , ![Screenshot 2025-03-03 193122](https://github.com/user-attachments/assets/8211233f-c705-492c-ab13-c695eed56a5a) , ![Screenshot 2025-03-03 193207](https://github.com/user-attachments/assets/b8aa3e1b-ba9a-4243-babd-f4cde23a4a23), ![Screenshot 2025-03-03 193148](https://github.com/user-attachments/assets/4f8f26dd-8449-4db1-913d-8667e9c80fcc)
 
 ## 🛠️ Technologies Used  
 
