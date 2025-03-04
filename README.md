@@ -42,13 +42,6 @@ Priview - ![Screenshot 2025-03-03 193107](https://github.com/user-attachments/as
 - Visitors can send messages using the **contact form**.  
 - Messages are **stored in MySQL** using Sequelize ORM.  
 
-### 🏆 **Portfolio Sections**  
-- **About Me** 🧑‍💻 (Showcasing your introduction)  
-- **Projects** 🚀 (Highlighting your best work)  
-- **Skills** ⚡ (Displaying technical expertise)  
-- **Experience & Education** 🎓  
-- **Contact** 📬 (With form submission to MySQL)  
-
 ## 🏁 Getting Started  
 
 ### 📦 **Installation**  
@@ -122,9 +115,9 @@ This project is licensed under the **MIT License** 📜.
 🔗 **LinkedIn:** [https://www.linkedin.com/in/yogesh490807/](https://www.linkedin.com/in/yogesh490807/)  
 📧 **Email:** personalmail.lucifer@example.com  
 
+
+
 Made with ❤️ by **LucifeR** 🎨🚀  
-
-
 
 
 
