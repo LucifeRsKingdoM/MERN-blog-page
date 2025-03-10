@@ -15,7 +15,7 @@ const db = mysql.createConnection({
   host: "localhost",
   user: "root",
   password: "2003", // Using your MySQL password
-  database: "todo_db",
+  database: "blog_db",
 });
 
 db.connect((err) => {
@@ -28,33 +28,17 @@ db.connect((err) => {
 
 // Ensure Users Table Exists
 db.query(
-  `CREATE TABLE IF NOT EXISTS users (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    username VARCHAR(255) NOT NULL,
-    email VARCHAR(255) NOT NULL UNIQUE,
+  `CREATE TABLE Users (
+    user_id INT AUTO_INCREMENT PRIMARY KEY,
+    email VARCHAR(255) UNIQUE NOT NULL,
     password VARCHAR(255) NOT NULL,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP 
   )`,
   (err) => {
     if (err) console.log("Error creating users table:", err);
   }
 );
 
-// Modified Todos Table - Using email instead of user_id
-db.query(
-  `CREATE TABLE IF NOT EXISTS todos (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    user_email VARCHAR(255) NOT NULL,
-    task VARCHAR(255) NOT NULL,
-    completed BOOLEAN DEFAULT false,
-    due_date DATETIME NULL,
-    priority ENUM('High', 'Medium', 'Low') DEFAULT 'Medium',
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-  )`,
-  (err) => {
-    if (err) console.log("Error creating todos table:", err);
-  }
-);
 
 // Authentication middleware
 const authenticateUser = (req, res, next) => {
